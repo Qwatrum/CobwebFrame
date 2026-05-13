@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cobwebframe",
+  "version": "${version}",
+  "name": "CobwebFrame",
+  "description": "",
+  "authors": ["Qwatrum"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cobwebframe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.qwatrum.cobwebframe.client.CobwebframeClient"
+    ],
+    "main": [
+      "de.qwatrum.cobwebframe.Cobwebframe"
+    ]
+  },
+  "mixins": [
+    "cobwebframe.mixins.json",
+    {
+      "config": "cobwebframe.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
