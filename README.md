@@ -13,6 +13,10 @@
 - **Place** items by right-clicking a cobweb with an item to store it
 - Get the items by right-clicking with an empty hand
 - Break the cobweb to drop all items
+- Rotate items by shift clicking
+- Freeze them using shift click + strings
+- Unfreeze them using shift click + shears
+
 
 
 - **All** items and **all** blocks work!
